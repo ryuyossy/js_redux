@@ -1,0 +1,81 @@
+/*-- topPage --*/
+.dashboard {
+  @extend .panelBox;
+  .dashDispBox {
+    display: box;
+    display: -webkit-box;
+    box-pack: center;
+    -webkit-box-pack:center;
+    margin: 40px auto;
+    .alert {
+      border: 2px #DDDDDD solid;
+      padding: 20px;
+      width: 500px;
+      height: 500px;
+      overflow: scroll;
+      .icon-preview {
+        display: box;
+        display: -webkit-box;
+        background-color: #ef9a9a;
+        color: white;
+        padding-top: 6px;
+      }
+      .alertHandle {
+        li {
+          background-color: #EEEEEE;
+          padding: 20px 10px 20px 10px;
+          @extend .margin-bottom-20;
+          border-left: 2px #ef9a9a solid;
+        }
+      }
+    }
+    .task {
+      border: 2px #DDDDDD solid;
+      padding: 20px;
+      width: 500px;
+      height: 500px;
+      overflow: scroll;
+      margin-left: 20px;
+      .icon-preview {
+        display: box;
+        display: -webkit-box;
+        background-color: #1C7EBB;
+        color: white;
+        padding-top: 6px;
+      }
+      .taskHandle {
+        li {
+          background-color: #EEEEEE;
+          padding: 20px 10px 20px 10px;
+          @extend .margin-bottom-20;
+          border-left: 2px #1C7EBB solid;
+        }
+      }
+    }
+  }
+  .newsBox {
+    .news {
+      margin: 40px auto;
+      border: 2px #DDDDDD solid;
+      padding: 20px;
+      width: 1020px;
+      height: 400px;
+      overflow: scroll;
+      .icon-preview {
+        display: box;
+        display: -webkit-box;
+        background-color: #2EC1CC;
+        color: white;
+        padding-top: 6px;
+      }
+      .newsHandle {
+        li {
+          background-color: #EEEEEE;
+          padding: 20px 10px 20px 10px;
+          @extend .margin-bottom-20;
+          border-left: 2px #2EC1CC solid;
+        }
+      }
+    }
+  }
+}

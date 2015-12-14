@@ -1,0 +1,71 @@
+/*-- PotentialCustomerFormView --*/
+.cutmerFormView {
+  @extend .panelBox;
+  .titlesM {
+    margin:40px 0 40px 0;
+  }
+  .fieldsWidth {
+    width: 100% !important;
+  }
+  .bnone {
+    border: none;
+  }
+  .tabsOnes {
+    margin: 0 20px 20px 20px;
+    .areaWrap {
+      border-radius: 8px;
+      border: 1px #eee solid;
+      @extend .padding-20;
+    }
+    .area {
+      display: box;
+  		display: -webkit-box;
+  		display: -moz-box;
+      box-align: baseline;
+      -webkit-box-align: baseline;
+      -moz-box-align: baseline;
+      @extend .margin-bottom-40;
+      .item1 {
+        width: 200px;
+      }
+      .item2 {
+        width: 300px;
+        border: 2px #cbd5dd solid;
+        @extend .padding-20;
+        text-align: center;
+      }
+      .item3 {
+        .tes {
+          color: green;
+        }
+        @extend .margin-left-40;
+      }
+      .item4 {
+        width: 300px;
+      }
+      .bn {
+        border: none;
+      }
+      .radioM {
+        @extend .margin-left-10;
+      }
+    }
+  }
+  .naviBtn {
+    @extend .clearfix;
+    @extend .margin-bottom-40;
+    .backBtn {
+      float: left;
+      margin-left: 18px;
+    }
+    .nextBtn {
+      float: right;
+      margin-right: 18px;
+    }
+  }
+  .submitBtn {
+    margin-bottom: 100px;
+    //@extend .margin-bottom-40;
+    margin-left: 18px;
+  }
+}

@@ -1,0 +1,46 @@
+.loginBox {
+  @extend .panelBox;
+  .loginForm {
+    margin: 40px 0 40px 40px;
+    .unum {
+      display: box;
+      display: -webkit-box;
+      .iconBox{
+        border: 2px #cbd5dd solid;
+        background-color: #EEEEEE;
+        border-right: none;
+        height: 80px;
+        padding: 26px;
+      }
+      .un {
+        width: auto;
+        height: 80px;
+        border: 2px #cbd5dd solid;
+        padding: 10px;
+        @extend .margin-bottom-40;
+      }
+    }
+    .passn {
+      display: box;
+      display: -webkit-box;
+      .iconBox{
+        border: 2px #cbd5dd solid;
+        background-color: #EEEEEE;
+        border-right: none;
+        height: 80px;
+        padding: 26px;
+      }
+      .pass {
+        width: auto;
+        height: 80px;
+        border: 2px #cbd5dd solid;
+        padding: 10px;
+        @extend .margin-bottom-40;
+      }
+    }
+    .btn {
+      width: 250px;
+      height: 50px;
+    }
+  }
+}

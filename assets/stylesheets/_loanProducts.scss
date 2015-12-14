@@ -1,0 +1,42 @@
+.loanProductsLayout {
+  @extend .panelBox;
+  .setsBox {
+    padding: 40px 60px;
+    .buttonM {
+      margin-bottom: 20px;
+    }
+    .active {
+      padding: 0;
+    }
+    .amountLayout {
+      @extend .panelBox;
+    }
+    .sectBox {
+      border: 1px solid #e9e9e9;
+      border-radius: 2px;
+      -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+      margin: 0 0 40px 0;
+      padding: 20px;
+      .namesForm {
+        width: 50%;
+      }
+      .input-field {
+        label {
+          top: 0 !important;
+        }
+      }
+    }
+    .amountLayout {
+      @extend .panelBox;
+      @extend .margin-top-30;
+      @extend .margin-bottom-40;
+      .fieldInput {
+        padding: 20px;
+        .input-field {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

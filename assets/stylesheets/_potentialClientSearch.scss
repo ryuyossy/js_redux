@@ -1,0 +1,34 @@
+/*-- search client --*/
+.contentPanel {
+  @extend .panelBox;
+  .searchClient {
+    margin: 40px;
+    .fName {
+      border: 2px #cbd5dd solid;
+      padding: 10px;
+      @extend .margin-bottom-40;
+    }
+    .lName {
+      @extend .fName;
+      @extend .margin-bottom-40;
+    }
+    .searchResult {
+      margin-left: 200px;
+      .icon-preview {
+        display: box;
+        display: -webkit-box;
+        border-color: #ffcdd2;
+        background-color: #ef9a9a;
+        color: white;
+        padding: 6px 0 0 4px;
+      }
+      .saTxt {
+        height: 400px;
+        overflow: scroll;
+        border: 2px #eee solid;
+        border-top: none;
+        padding: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.mfSetting {
+  @extend .panelBox;
+  .mfsetBox {
+    padding: 40px 60px;
+    .loanPolicyLayout {
+      @extend .panelBox;
+      @extend .margin-top-10;
+      @extend .margin-bottom-40;
+      .innerBox {
+        padding: 20px 40px 20px 40px;
+        .linkTxt {
+          color: #fff;
+          margin-right:10px;
+          margin-bottom: 10px;
+        }
+        .labelTxt {
+          padding-bottom: 6px;
+        }
+      }
+    }
+    .feePolicyLayout {
+      @extend .panelBox;
+      @extend .margin-top-10;
+      @extend .margin-bottom-40;
+      .innerBox {
+        padding: 20px 40px 20px 40px;
+        .mBox {
+          margin-bottom: 40px !important;
+          .fn {
+            border: 2px #cbd5dd solid;
+            padding: 10px;
+          }
+        }
+      }
+    }
+    .clientsLayout {
+      @extend .panelBox;
+      @extend .margin-top-10;
+      @extend .margin-bottom-40;
+      .innerBox {
+        padding: 20px 40px 20px 40px;
+      }
+    }
+    .collateralLayout {
+      @extend .panelBox;
+      .innerBox {
+        padding: 20px 40px 20px 40px;
+      }
+    }
+  }
+}
